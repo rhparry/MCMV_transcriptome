@@ -43,6 +43,13 @@ This repository provides processed transcriptomic data and network files generat
 - `Interactome_Map.cys`  
   Cytoscape network file for Figure 3C. This includes merged antigen presentation and leukocyte migration networks, annotated with log₂ fold change and betweenness centrality.
 
+## Computational Environment
+Analyses were run in:
+- R 4.4.2 (2024-10-31)
+- RStudio 2024.12.0+467
+- Major packages: tidyverse 2.0.0 (ggplot2 3.5.2, dplyr 1.1.4, tidyr 1.3.1), lubridate 1.9.4, pheatmap 1.0.13  
+Full session information including all package versions and dependencies is provided in `sessionInfo.txt`.
+
 ---
 
 ## 🧬 Citation  
