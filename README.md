@@ -7,6 +7,11 @@ This repository provides processed transcriptomic data and network files generat
 
 ## 📁 Repository Contents
 
+### Analysis Script
+- `analysis.R`  added 3/10/25
+  R script used to generate the processed expression data and differential gene expression tables included here (`Normlist_mouse_genes.csv`, `Normlist_MCMVgenes.csv`, `S2_Mockvs_IC2.csv`, `S3_Mockvs_NQY.csv`, and `S4_IC2vsNQY_DEGs.csv`).  
+  Gene set enrichment (Tables S5–S7) and the Cytoscape network file (`Interactome_Map.cys`) were created using the methods described in the manuscript and are not produced by this script.
+
 ### Differential Gene Expression Tables
 - `S2_Mockvs_IC2.csv`  
   **Table S2**: Differentially expressed genes in wild-type (IC2) MCMV-infected cells vs. mock-infected controls.
