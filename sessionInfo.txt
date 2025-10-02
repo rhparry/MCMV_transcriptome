@@ -11,6 +11,8 @@ Base R packages
 •	base
 
 Main analysis and visualization packages
+• edgeR 3.42.4
+• limma 3.56.2
 •	tidyverse 2.0.0
 o	ggplot2 3.5.2
 o	dplyr 1.1.4
